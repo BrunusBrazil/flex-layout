@@ -100,6 +100,7 @@
     "karma-jasmine": "^1.1.2",
     "karma-sauce-launcher": "^2.0.2",
     "karma-sourcemap-loader": "^0.3.7",
+    "karma-viewport": "^1.0.5",
     "magic-string": "^0.22.5",
     "merge2": "^1.2.3",
     "minimatch": "^3.0.4",

@@ -4,9 +4,10 @@ const {customLaunchers, platformMap} = require('./browser-providers');
 module.exports = config => {
   config.set({
     basePath: path.join(__dirname, '..'),
-    frameworks: ['jasmine'],
+    frameworks: ['jasmine', 'viewport'],
     plugins: [
       require('karma-jasmine'),
+      require('karma-viewport'),
       require('karma-browserstack-launcher'),
       require('karma-sauce-launcher'),
       require('karma-chrome-launcher'),
